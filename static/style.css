@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400, 900);
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#top_palette {
+  display: flex;
+}
+
+#main {
+  background: linear-gradient(rgba(0, 35, 48, 1), rgba(0, 35, 48, 1)),
+    url('/static/museum_pop.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+#main_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#main_content h1 {
+  font-size: 3rem;
+  letter-spacing: 0.1em;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+#main_content h4 {
+  font-size: 2em;
+}
