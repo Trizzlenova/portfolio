@@ -6,7 +6,7 @@
 </head>
 <body>
     <div id="top_palette">
-        {% for page, color in {'main': '#01aff3', 'about': '#6bf700', 'skills': '#eff109', 'experience': '#f64e0c', 'contact': '#cb268b'}.items() %}
+        {% for page, color in {'main': '#6bf700', 'about': '#01aff3', 'skills': '#eff109', 'experience': '#f64e0c', 'contact': '#cb268b'}.items() %}
             <div class="block" style="background-color:{{ color }}; width: 100%; height: 5vh;">
                 <a href="{{ url_for('portfolio.'+ page) }}">{{ page }}</a>
             </div>
