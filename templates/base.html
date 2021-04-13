@@ -6,15 +6,9 @@
 </head>
 <body>
     <div id="top_palette">
-        {% for color in colors %}
-            <div class="block" style="background-color:{{color}}; height:1em; width:100%"></div>
+        {% for color in ['#01aff3', '#6bf700', '#eff109', '#f64e0c', '#cb268b'] %}
+            <div class="block" style="background-color:{{color}; width: 100%; height: 5vh;"></div>
         {% endfor %}
-    </div>
-    <div id="main">
-        <div id="main_content">
-            <h1>Troy Swayzee</h1>
-            <h4>Software Engineer</h4>
-        </div>
     </div>
     {% block content %}
     {% endblock %}
