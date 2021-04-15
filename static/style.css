@@ -105,6 +105,7 @@ a:hover {
   color: white;
   text-transform: uppercase;
   padding-top: 2em;
+  flex-direction: column;
 }
 
 #skills h1 {
@@ -120,7 +121,44 @@ a:hover {
   justify-content: center;
   padding-top: 1em;
   text-transform: none;
-  width: 50%;
+  width: 60%;
   margin: auto;
   text-align: left;
+}
+
+#skills_breakdown_1 {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+#skills_breakdown_2 {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.languages,
+.frameworks,
+.software {
+  width: 100%;
+  margin: 2em;
+  display: inline-block;
+  font-size: 1em;
+}
+
+#experience {
+  background: linear-gradient(rgba(196, 62, 9, 0.5), rgba(196, 62, 9, 0.5)),
+    url('/static/experience.jpg');
+  background-size: cover;
+  height: 95vh;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 2em;
+  flex-direction: column;
 }
