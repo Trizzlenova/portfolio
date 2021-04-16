@@ -162,3 +162,8 @@ a:hover {
   padding-top: 2em;
   flex-direction: column;
 }
+
+.logo {
+  width: 15%;
+  border-radius: 30em;
+}
