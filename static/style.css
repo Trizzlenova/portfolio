@@ -151,29 +151,80 @@ a:hover {
   font-size: 1em;
 }
 
+#company {
+  text-align: left;
+  display: flex;
+}
+
 #experience {
   background: linear-gradient(rgba(196, 62, 9, 0.5), rgba(196, 62, 9, 0.5)),
     url('/static/experience.jpg');
   background-size: cover;
   height: 95vh;
-  text-align: center;
   color: white;
-  text-transform: uppercase;
   padding-top: 2em;
-  flex-direction: column;
+  width: 100%;
+}
+
+#experience h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#experience_content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#experience_content h5 {
+  margin-bottom: .3em;
 }
 
 #archbright, #general_assembly {
   width: 100%;
   display: flex;
+  flex-direction: column;
+}
+
+.experience_details {
+  display: flex;
+  flex-direction: column;
+}
+
+#archbright img {
+  border: .3em solid #01aff3
+}
+
+#general_assembly img {
+  border: .3em solid #ec1e3c;
 }
 
 .col1 img, .col2 img {
   margin: 1.6em;
-  width: 3em;
+  width: 35%;
+}
+
+.organization {
+  margin: 1.2em 0 0 0;
+  font-size: 1.3em;
+}
+
+.title {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.year {
+  font-size: 1em;
 }
 
 .logo {
-  width: 15%;
+  width: 25%;
   border-radius: 30em;
+  margin: 0 1em 1em 1em;
+}
+
+#general_assembly .logo {
+  width: 10em;
 }
